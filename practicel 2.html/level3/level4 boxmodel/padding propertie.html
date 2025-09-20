@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>padding property</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .pad{
+            height: 50px;
+            width: 50px;
+            padding: 2px;
+        }
+        #first {
+            border: 2px dashed;
+            border-radius: 10px;
+            box-sizing: content-box;
+            margin: 5px;
+            background-color: rgb(0, 72, 139);
+        }
+        #second {
+            border: dotted red;
+            border-radius: 9px;
+            box-sizing: border-box;
+              margin: 5px;
+              background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <div id="first" class="pad">first</div>
+    <div id="second" class="pad">second </div>
+</body>
+</html>
